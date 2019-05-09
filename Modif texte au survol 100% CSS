@@ -1,4 +1,4 @@
-
+<style>
 /* On montre le premier texte */
 .text-base{
     opacity:1;
@@ -26,3 +26,9 @@
 	background-color: #40B0E1;
 	border: solid 1px black;
 	width: -webkit-fill-available;}
+</style>
+
+<a href="index.php" class="redirection">
+   <span class="text-hover">Entrez ;) </span>
+   <span class="text-base">il faut me passez sur le corp !</span>
+</a>
