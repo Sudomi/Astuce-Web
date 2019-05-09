@@ -1,0 +1,28 @@
+
+/* On montre le premier texte */
+.text-base{
+    opacity:1;
+    text-align: center;
+
+	font-size: 22px;
+	color: white;
+	background-color: #40B0E1;
+	border: solid 1px black;
+	width: -webkit-fill-available; }
+/* On cache le second texte */
+.text-hover{
+    display:none;}
+/* On fait disparaitre le premier texte au passage de la souris. */
+.redirection:hover span.text-base{
+    opacity:0;}
+/* On fait apparaitre le second texte au passage de la souris. */
+.redirection:hover span.text-hover{
+    display:inherit;
+    position:absolute;
+
+    text-align: center;
+	font-size: 22px;
+	color: black;
+	background-color: #40B0E1;
+	border: solid 1px black;
+	width: -webkit-fill-available;}
